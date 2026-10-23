@@ -1,0 +1,51 @@
+; 	Exported zone file from Azure DNS
+; 	Zone name: task4rohith.com
+; 	Date and time (UTC): Fri, 23 Oct 2026 06:08:28 GMT
+
+$TTL 300
+$ORIGIN task4rohith.com
+
+; SOA Record
+@	 3600		IN	SOA	ns1-04.azure-dns.com.	azuredns-hostmaster.microsoft.com	(
+	 	 	1	 ;serial
+	 	 	3600	 ;refresh
+	 	 	300	 ;retry
+	 	 	2419200	 ;expire
+	 	 	300	 ;minimum ttl
+)
+
+; NS Records
+@	172800	IN	NS	ns1-04.azure-dns.com.
+@	172800	IN	NS	ns2-04.azure-dns.net.
+@	172800	IN	NS	ns3-04.azure-dns.org.
+@	172800	IN	NS	ns4-04.azure-dns.info.
+
+; MX Records
+
+; A Records
+www	3600	IN	A	52.172.226.179
+
+; AAAA Records
+
+; CNAME Records
+
+; PTR Records
+
+; TXT Records
+
+; SRV Records
+
+; SPF Records
+
+; CAA Records
+
+; DS Records
+
+; TLSA Records
+
+; NAPTR Records
+
+; Azure Alias Records
+
+; Azure TmLink Records
+

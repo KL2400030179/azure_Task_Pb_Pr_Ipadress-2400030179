@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "dnszones_task4rohith_com_name": {
+            "value": null
+        },
+        "virtualMachines_vm_task4_1_name": {
+            "value": null
+        },
+        "virtualMachines_vm_task4_2_name": {
+            "value": null
+        },
+        "virtualNetworks_vnet_task4_name": {
+            "value": null
+        },
+        "privateDnsZones_task4_internal_name": {
+            "value": null
+        },
+        "networkSecurityGroups_nsg_task4_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_task4_1VMNic_name": {
+            "value": null
+        },
+        "networkInterfaces_vm_task4_2VMNic_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vm_task4_1NSG_name": {
+            "value": null
+        },
+        "networkSecurityGroups_vm_task4_2NSG_name": {
+            "value": null
+        },
+        "publicIPAddresses_vm_task4_1PublicIP_name": {
+            "value": null
+        },
+        "publicIPAddresses_vm_task4_2PublicIP_name": {
+            "value": null
+        }
+    }
+}
